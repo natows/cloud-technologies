@@ -1,0 +1,15 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js app with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  },
+  "author": "",
+  "license": "ISC"
+}
