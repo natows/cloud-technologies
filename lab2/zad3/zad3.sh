@@ -98,7 +98,7 @@ echo "Uruchomiono serwer"
 
 sleep 5
 
-response=$(curl -s -o /dev/null -w "%{http_code}" -X POST http://localhost:8080/add -H "Content-Type: application/json" -d '{"name": "Test Item"}')
+response=$(curl -s -o /dev/null -w "%{http_code}" -X POST http://localhost:8080/add -H "Content-Type: application/json" -d '{"name": "testowy"}')
 
 if [ "$response" -eq 200 ]; then
   echo "Dodano element do bazy"
