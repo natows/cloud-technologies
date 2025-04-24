@@ -1,13 +1,18 @@
 {
-    "name": "express-server",
+    "name": "express-docker",
     "version": "1.0.0",
-    "description": "server na stepik",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js"
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
     "dependencies": {
-        "express": "^4.18.2",
-        "redis": "^4.6.7"
+      "express": "^4.18.2",
+      "redis": "^4.0.5",
+      "pg": "^8.10.0",
+      "body-parser": "^1.20.2"
     }
-}
+  }
