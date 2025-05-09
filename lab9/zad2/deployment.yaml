@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-personal
+  template:
+    metadata:
+      labels:
+        app: nginx-personal
+    spec:
+      containers:
+      - name: nginx
+        image: nowsiejko/nginx-app:1.0
+        ports:
+        - containerPort: 80
