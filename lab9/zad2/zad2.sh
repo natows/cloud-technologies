@@ -31,3 +31,4 @@ kubectl get deployment nginx-deployment
 
 
 kubectl get pods -l app=nginx-personal
+
